@@ -1,0 +1,102 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+video
+{
+    position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+button{
+    width: 100px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border:none;
+    
+}
+.zero
+{
+    width: 160px;
+}
+.btns
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    
+    
+    
+    
+}
+button:hover
+{
+    background-color: rgb(183, 183, 183);
+}
+button:active
+{
+    background-color: rgb(255, 255, 255);
+}
+.calc
+{
+    background-color: rgb(12, 10, 10);
+    width: 500px;
+    border-radius: 20px;
+    
+}
+#int
+{
+    width: 100%;
+    max-width: 475px;
+    border-radius: 20px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: rgb(26, 25, 25);
+    border: none;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.orange
+{
+    background-color: red;
+    
+}
+.orange:nth-of-type(16)
+{
+    
+    width: 140px;
+}
+.orange:nth-of-type(17)
+{
+    
+    width: 140px;
+}
+.orange:nth-of-type(18)
+{
+    
+    width: 140px;
+}
+.orange:hover
+{
+    background-color: brown;
+}
+.orange:active
+{
+background-color: red;
+}
+
